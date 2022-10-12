@@ -100,6 +100,7 @@ Run application in Chrome
 
 - [X] Create two pages
 - [X] Create Privates and Public Routes
+- [X] Create Footer and Header components
 
 
 

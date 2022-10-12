@@ -1,12 +1,21 @@
-import React from 'react';
-import Routes from './routes';
+import React from "react";
 
+//components
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
+import Routes from "./routes";
+import "./style/appCV.css";
 
 function App() {
   return (
-    <div className="App">
-      <Routes />
-    </div>
+    <>
+      <Header />
+      <div className="pageContainer">
+        <Routes />
+      </div>
+      <Footer />
+    </>
   );
 }
 
