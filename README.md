@@ -46,6 +46,7 @@
 * Redux
 * HTML
 * CSS
+* React Icons
 
 
 ### Folder Structure
