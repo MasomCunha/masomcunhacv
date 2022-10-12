@@ -101,6 +101,8 @@ Run application in Chrome
 - [X] Create two pages
 - [X] Create Privates and Public Routes
 - [X] Create Footer and Header components
+- [X] Context to control theme
+- [X] Component to switch theme 
 
 
 

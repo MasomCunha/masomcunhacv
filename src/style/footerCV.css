@@ -1,5 +1,12 @@
 .footerCV {
     width: 100vw;
-    background-color: blueviolet;
     height: 6vh;
+}
+
+.footerCV.darkMode{
+    background-color: black
+}
+
+.footerCV.ligthMode{
+    background-color: rgb(204, 204, 192)
 }
