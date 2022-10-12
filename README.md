@@ -34,13 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The goal of this challenge was to build a responsive web application that uses fake API to simulate sending and receiving posts for a given user. Auth0 should have been used to control accessible/visible routes.
 
-Based on Auth0 documentation to SPA https://auth0.com/docs/quickstart/spa/react/01-login#configure-auth0, i should get user information after the login successfully in Auth0. However, after redirect to my application, the user's information was undefined and this did not allow me to conclude the two first tasks.
-
-Since I don't have much experience with typeScript, when analyzing the code you will find in the postAction file, a type of return any, which was used to overcome the problem documented in the code.
-
-Since I have no experience writing tests, I did not perform any in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,12 +89,7 @@ Run application in Chrome
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To use this app you need to insert an email with the following structure 
-    example@example.example,
-in input field and then click login.
-You will open a homepage where you can see a list os posts and where you can insert new posts.
-To insert a post you only need to click in post button. There is no validation in both title and body inputs.
-After you click in "post" will appears a success message and if you scroll down you will see the new post.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
