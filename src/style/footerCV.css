@@ -2,11 +2,3 @@
     width: 100vw;
     height: 6vh;
 }
-
-.footerCV.darkMode{
-    background-color: black
-}
-
-.footerCV.ligthMode{
-    background-color: rgb(204, 204, 192)
-}

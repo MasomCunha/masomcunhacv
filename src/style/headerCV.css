@@ -1,13 +1,8 @@
 .headerCV {
     width: 100vw;
-    background-color: blueviolet;
     height: 8vh;
 }
 
-.headerCV.darkMode{
-    background-color: black
-}
-
-.headerCV.ligthMode{
-    background-color: rgb(204, 204, 192)
+.headerCV .headerCVLogout{
+    cursor: pointer;
 }

@@ -1,16 +1,25 @@
 import React, { useContext } from "react";
 //context
 import { CVContext } from "../context/CVContext";
+//icons
+import { BsFillLightbulbFill, BsFillLightbulbOffFill } from "react-icons/bs";
 //styles
+import { ICON_SIZE } from "../style/constants";
 import "../style/switchTheme.css";
 
-export default function SwitchTheme(){
+export default function SwitchTheme() {
+  const context = useContext(CVContext);
 
-    const context = useContext(CVContext);
-
-    return(
-        <div className="switchThemeCV" onClick={() => context?.setDarkMode(!context?.isDarkMode)}>
-            <span>Swith Theme</span>
-        </div>
-    )
+  return (
+    <div
+      className="switchThemeCV"
+      onClick={() => context?.setDarkMode(!context?.isDarkMode)}
+    >
+      {context?.isDarkMode ? (
+        <BsFillLightbulbFill className="switchThemeIconCV" size={ICON_SIZE}/>
+      ) : (
+        <BsFillLightbulbOffFill className="switchThemeIconCV" size={ICON_SIZE}/>
+      )}
+    </div>
+  );
 }
