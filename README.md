@@ -102,8 +102,14 @@ Run application in Chrome
 - [X] Create Privates and Public Routes
 - [X] Create Footer and Header components
 - [X] Context to control theme
-- [X] Component to switch theme 
-
+- [X] Component to switch theme
+- [X] Add redux
+- [X] Control routes using store
+- [X] Use gitHub api to get user
+- [ ] Add Tecnologies
+- [ ] Add Repository list
+- [ ] Add other projects list 
+- [X] Add button to "logout"
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

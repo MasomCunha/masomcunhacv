@@ -16,7 +16,7 @@ export default function HomeCV() {
 
   const handleClick = () => {
     dispatch(getGitUserInformation())
-    dispatch(login())
+    dispatch(login(true))
     navigate("/detailCV")
   }
 

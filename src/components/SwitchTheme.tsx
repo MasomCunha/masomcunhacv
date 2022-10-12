@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-
 //context
 import { CVContext } from "../context/CVContext";
 //styles
