@@ -9,14 +9,23 @@ import { FiLogOut } from "react-icons/fi";
 import { ICON_SIZE } from "../style/constants";
 import "../style/headerCV.css";
 
-export default function Header({ children, isLogged, logout } : HeaderInterface){
+export default function Header({
+  children,
+  isLogged,
+  logout,
+}: HeaderInterface) {
+  const context = useContext(CVContext);
 
-    const context = useContext(CVContext);
-
-    return(
-        <div className={`headerCV ${context?.isDarkMode ? "darkMode" : "ligthMode"}`}>
-            {children}
-            {isLogged && <span onClick={() => logout()}><FiLogOut className="headerCVLogout" size={ICON_SIZE}/></span>}
-        </div>
-    )
+  return (
+    <div
+      className={`headerCV ${context?.isDarkMode ? "darkMode" : "ligthMode"}`}
+    >
+      <div className="headerCVIconTheme">{children}</div>
+      {isLogged && (
+        <span onClick={() => logout()}>
+          <FiLogOut className="headerCVLogout" size={ICON_SIZE} />
+        </span>
+      )}
+    </div>
+  );
 }

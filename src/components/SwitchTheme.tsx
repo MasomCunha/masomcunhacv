@@ -14,6 +14,7 @@ export default function SwitchTheme() {
     <div
       className="switchThemeCV"
       onClick={() => context?.setDarkMode(!context?.isDarkMode)}
+      title={context?.isDarkMode ? "Turn to light mode" : "Turn to dark mode"}
     >
       {context?.isDarkMode ? (
         <BsFillLightbulbFill className="switchThemeIconCV" size={ICON_SIZE}/>

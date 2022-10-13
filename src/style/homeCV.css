@@ -1,0 +1,37 @@
+.homeCV{
+    position: relative;
+    background-image:url("../assets/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeCVTextBox {
+    margin-bottom: 20px;
+}
+
+.homeCVH1{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.homeCVH2{
+    margin: 0;
+    color: white;
+}
+
+.homeCVButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeCVButton {
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+}

@@ -13,11 +13,11 @@ code {
 }
 
 .darkMode {
-  background-color: #202022;
-  color: rgb(204, 204, 192);
+  background-color: #3e3e42;
+  color: #F5F5F0;
 }
 
 .ligthMode {
-  background-color: rgb(204, 204, 192);
-  color: #202022;
+  background-color: #F5F5F0;
+  color: #3e3e42;
 }

@@ -1,4 +1,11 @@
 .footerCV {
     width: 100vw;
     height: 6vh;
+    position: relative;
+}
+
+.footerCVIconTheme{
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }

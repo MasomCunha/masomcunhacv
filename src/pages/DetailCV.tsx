@@ -18,7 +18,7 @@ export default function DetailCV() {
 
   return <div>
     {JSON.stringify(gitUser)}
-    
+    <img src={gitUser?.avatar_url} alt={gitUser?.avatar_url}/>
     {
       CVData.map((project, index) => <ProjectCard key={index} project={project}/>)
     }

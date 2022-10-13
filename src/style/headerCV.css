@@ -3,6 +3,12 @@
     height: 8vh;
 }
 
+.headerCVIconTheme{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
 .headerCV .headerCVLogout{
     cursor: pointer;
 }
