@@ -66,3 +66,7 @@
 .repositoryOption{
   padding: 5px 0px;
 }
+
+.repositoryOption:hover{
+  transform: scale(1.04);
+}
