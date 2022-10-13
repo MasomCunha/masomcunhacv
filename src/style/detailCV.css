@@ -1,0 +1,23 @@
+.detailCV {
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.detailAvatarContainerCV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.detailAvatarCV {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.detailAvatarNameCV{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 //interface
-import FooterInterface from "../interface/Footer";
+import FooterInterface from "../interface/footer";
 
 //context
 import { CVContext } from "../context/CVContext";

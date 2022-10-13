@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 //interface
-import HeaderInterface from "../interface/Header";
+import HeaderInterface from "../interface/header";
 //context
 import { CVContext } from "../context/CVContext";
 //icons
