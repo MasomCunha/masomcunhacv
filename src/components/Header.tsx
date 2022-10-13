@@ -20,12 +20,17 @@ export default function Header({
     <div
       className={`headerCV ${context?.isDarkMode ? "darkMode" : "ligthMode"}`}
     >
-      <div className="headerCVIconTheme">{children}</div>
-      {isLogged && (
-        <span onClick={() => logout()}>
-          <FiLogOut className="headerCVLogout" size={ICON_SIZE} />
-        </span>
-      )}
+      <div className="headerCVIconTheme">
+        {children}
+
+        {isLogged && (
+          <div className="headerCVLogoutContainer">
+            <span onClick={() => logout()}>
+              <FiLogOut className="headerCVLogout" size={ICON_SIZE} />
+            </span>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -12,3 +12,7 @@
 .headerCV .headerCVLogout{
     cursor: pointer;
 }
+
+.headerCV .headerCVLogoutContainer {
+    margin-left: 10px;
+}

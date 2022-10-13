@@ -23,12 +23,12 @@ export default function DetailCV() {
   );
 
   return (
-    <div className="detailCV">
+    <div className={`detailCV ${ context?.isDarkMode ? "detailDarkMode" : "detailLightMode"}`}>
       <div className="detailAvatarContainerCV">
         <AvatarCard
           classNameImage={"detailAvatarCV"}
           classNameText={`detailAvatarNameCV ${
-            context?.isDarkMode ? "darkMode" : "ligthMode"
+            context?.isDarkMode ? "darkModeDetailsLetters" : "ligthModeDetailsLetters"
           }`}
           gitUser={gitUser}
         />
@@ -38,7 +38,7 @@ export default function DetailCV() {
           <div>
             <h3
               className={`technologyTitle ${
-                context?.isDarkMode ? "darkMode" : "ligthMode"
+                context?.isDarkMode ? "darkModeDetailsLetters" : "ligthModeDetailsLetters"
               }`}
             >
               Technologies
@@ -52,7 +52,7 @@ export default function DetailCV() {
           <div className="projectDetailContainer">
             <h3
               className={`technologyTitle ${
-                context?.isDarkMode ? "darkMode" : "ligthMode"
+                context?.isDarkMode ? "darkModeDetailsLetters" : "ligthModeDetailsLetters"
               }`}
             >
               Project List
@@ -64,7 +64,7 @@ export default function DetailCV() {
           <div className="repositoryDetailContainer">
             <h3
               className={`technologyTitle ${
-                context?.isDarkMode ? "darkMode" : "ligthMode"
+                context?.isDarkMode ? "darkModeDetailsLetters" : "ligthModeDetailsLetters"
               }`}
             >
               Repository List

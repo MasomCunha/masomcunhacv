@@ -4,6 +4,18 @@
     width: 100%;
 }
 
+.detailDarkMode{
+    background-image:url("../assets/detailDark.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.detailLightMode{
+    background-image:url("../assets/detailLight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .detailAvatarContainerCV {
     display: flex;
     justify-content: center;
@@ -18,7 +30,7 @@
 
 .detailAvatarNameCV{
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 16px;
 }
 

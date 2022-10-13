@@ -6,7 +6,7 @@ import "../style/projectCard.css";
 
 export default function ProjectCard({ project, isDarkMode }: ProjectInterface) {
   return (
-    <div className={`projectCardContainer ${isDarkMode ? "darkMode" : "ligthMode"}`}>
+    <div className={`projectCardContainer ${isDarkMode ? "darkModeDetailsLetters" : "ligthModeDetailsLetters"}`}>
       <div className="projectCardHeader">
         <div className="projectCardTitleProject"><h4>{project.projectName}</h4></div>
         <div className="projectCardDetailsProject">

@@ -19,9 +19,11 @@
 .projectCardDetailsProject {
     width: 70%;
     display: flex;
+    font-weight: 600;
     justify-content: flex-end;
 }
 
 .projectCardDescriptionProject {
     margin-top: 10px;
+    font-weight: 600;
 }

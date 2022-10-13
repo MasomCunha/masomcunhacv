@@ -21,3 +21,11 @@ code {
   background-color: #F5F5F0;
   color: #3e3e42;
 }
+
+.darkModeDetailsLetters {
+  color: #F5F5F0
+}
+
+.ligthModeDetailsLetters {
+  color: #000000;
+}
