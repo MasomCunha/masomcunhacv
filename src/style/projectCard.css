@@ -1,0 +1,27 @@
+.projectCardContainer {
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.projectCardHeader {
+    display: flex;
+    width: 100%;
+}
+
+.projectCardTitleProject {
+    width: 30%;
+}
+
+.projectCardTitleProject h4 {
+    margin: 0;
+}
+
+.projectCardDetailsProject {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectCardDescriptionProject {
+    margin-top: 10px;
+}

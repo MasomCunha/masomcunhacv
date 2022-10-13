@@ -58,7 +58,7 @@ export default function DetailCV() {
               Project List
             </h3>
             {CVData.map((project, index) => (
-              <ProjectCard key={index} project={project} />
+              <ProjectCard key={index} project={project} isDarkMode={context?.isDarkMode}/>
             ))}
           </div>
           <div className="repositoryDetailContainer">
@@ -70,7 +70,7 @@ export default function DetailCV() {
               Repository List
             </h3>
             {CVData.map((project, index) => (
-              <ProjectCard key={index} project={project} />
+              <ProjectCard key={index} project={project} isDarkMode={context?.isDarkMode}/>
             ))}
           </div>
         </div>

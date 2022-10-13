@@ -7,5 +7,6 @@ interface project {
 }
 
 export default interface ProjectCard{
-    project: project
+    project: project,
+    isDarkMode: boolean | undefined
 }
