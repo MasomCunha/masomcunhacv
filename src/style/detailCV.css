@@ -1,56 +1,64 @@
 .detailCV {
-    height: 100%;
-    display: flex;
-    width: 100%;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  position: relative;
 }
 
-.detailDarkMode{
-    background-image:url("../assets/detailDark.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.detailDarkMode {
+ background-color: black;
 }
 
-.detailLightMode{
-    background-image:url("../assets/detailLight.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.detailLightMode::after {
+    background-color: white;
 }
 
 .detailAvatarContainerCV {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .detailAvatarCV {
-    border: 1px solid black;
-    border-radius: 50%;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
-.detailAvatarNameCV{
-    text-align: center;
-    font-weight: 800;
-    font-size: 16px;
+.detailAvatarNameCV {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
 }
 
-.detailTechnologyContainerCV{
-    display: flex;
-    justify-content: center;
+.detailInfoCV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailTechnologyContainerCV {
+  display: flex;
+  justify-content: center;
 }
 
 .technologyTitle {
-    text-align: center;
+  text-align: center;
+  font-size: 25px;
 }
 
 .detailProjectsContainerCV {
-    display: flex;
+  display: flex;
 }
 
 .projectDetailContainer {
-    padding: 20px;
+  padding: 20px;
+  width: 60%;
+  font-size: 20px;
 }
 
 .repositoryDetailContainer {
-    padding: 20px;
+  padding: 20px;
+  width: 40%;
+  font-size: 20px;
 }

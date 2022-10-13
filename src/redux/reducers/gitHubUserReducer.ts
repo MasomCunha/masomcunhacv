@@ -5,7 +5,7 @@ const initialState : gitUser.gitUserState = {
     gitUser: null
 }
 
-const authReducer = (state = initialState, action: gitUser.getGitUserAction) => {
+const gitUserReducer = (state = initialState, action: gitUser.getGitUserAction) => {
     switch(action.type){
         case GET_GIT_USER: {
             return {
@@ -27,4 +27,4 @@ const authReducer = (state = initialState, action: gitUser.getGitUserAction) => 
 }
 
 
-export default authReducer
+export default gitUserReducer
