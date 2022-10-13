@@ -11,7 +11,10 @@ export default function AvatarCard({classNameImage, classNameText, gitUser} : Av
         alt={gitUser?.avatar_url}
       />
       <p className={classNameText}>
-        Manuel António dos S. O. M. Cunha - {gitUser?.login}
+        Manuel António S. O. M. Cunha 
+      </p>
+      <p className={classNameText}>
+      {gitUser?.login}
       </p>
     </div>
   );
