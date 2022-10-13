@@ -111,7 +111,7 @@ Run application in Chrome
 - [X] Add Repository list
 - [X] Add other projects list 
 - [X] Add button to "logout"
-- [ ] Add function to calculate end date in projects
+- [X] Add function to calculate end date in projects
 - [ ] Responsive
 
 
