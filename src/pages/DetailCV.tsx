@@ -36,16 +36,43 @@ export default function DetailCV() {
       <div>
         <div className="detailTechnologyContainerCV">
           <div>
-            <h3 className="technologyTitle">Technologies</h3>
+            <h3
+              className={`technologyTitle ${
+                context?.isDarkMode ? "darkMode" : "ligthMode"
+              }`}
+            >
+              Technologies
+            </h3>
             {CVTecno.map((technology, index) => (
               <Technologies key={index} technology={technology} />
             ))}
           </div>
         </div>
-        <div>
-          {CVData.map((project, index) => (
-            <ProjectCard key={index} project={project} />
-          ))}
+        <div className="detailProjectsContainerCV">
+          <div className="projectDetailContainer">
+            <h3
+              className={`technologyTitle ${
+                context?.isDarkMode ? "darkMode" : "ligthMode"
+              }`}
+            >
+              Project List
+            </h3>
+            {CVData.map((project, index) => (
+              <ProjectCard key={index} project={project} />
+            ))}
+          </div>
+          <div className="repositoryDetailContainer">
+            <h3
+              className={`technologyTitle ${
+                context?.isDarkMode ? "darkMode" : "ligthMode"
+              }`}
+            >
+              Repository List
+            </h3>
+            {CVData.map((project, index) => (
+              <ProjectCard key={index} project={project} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -13,7 +13,8 @@ const authReducer = (state = initialState, action: gitUser.getGitUserAction) => 
                 gitUser: {
                     login: action.payload.login,
                     avatar_url: action.payload.avatar_url,
-                    html_url: action.payload.html_url
+                    html_url: action.payload.html_url,
+                    repos_url: action.payload.repos_url
                 }
             }
         }

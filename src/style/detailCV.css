@@ -30,3 +30,15 @@
 .technologyTitle {
     text-align: center;
 }
+
+.detailProjectsContainerCV {
+    display: flex;
+}
+
+.projectDetailContainer {
+    padding: 20px;
+}
+
+.repositoryDetailContainer {
+    padding: 20px;
+}
