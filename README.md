@@ -107,10 +107,12 @@ Run application in Chrome
 - [X] Add redux
 - [X] Control routes using store
 - [X] Use gitHub api to get user
-- [ ] Add Tecnologies
-- [ ] Add Repository list
-- [ ] Add other projects list 
+- [X] Add Tecnologies
+- [X] Add Repository list
+- [X] Add other projects list 
 - [X] Add button to "logout"
+- [ ] Add function to calculate end date in projects
+- [ ] Responsive
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
