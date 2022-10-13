@@ -1,3 +1,10 @@
+import cssImage from "../assets/css.png";
+import html5Image from "../assets/html5.png";
+import jsImage from "../assets/js.png";
+import tsImage from "../assets/ts.png"
+import reactImage from "../assets/react.png";
+import reduxImage from "../assets/redux.png";
+
 export const CVData = [
   {
     id: 1,
@@ -24,3 +31,36 @@ export const CVData = [
       "This web application allows the admin to control both Hospital website components and some Hospital Portal specs. This application was built using ReactJS, Html5, Css. The information to render screens was received via web-services in JSON format and Redux was used to control the application state.",
   },
 ];
+
+export const CVTecno = [
+  {
+    id:1,
+    name: "JavaScript",
+    src: jsImage
+  },
+  {
+    id:2,
+    name: "HTML5",
+    src: html5Image
+  },
+  {
+    id:3,
+    name: "CSS3",
+    src: cssImage
+  },
+  {
+    id:4,
+    name: "react",
+    src: reactImage
+  },
+  {
+    id:5,
+    name: "redux",
+    src: reduxImage
+  },
+  {
+    id:6,
+    name: "TypeScript",
+    src: tsImage
+  }
+]

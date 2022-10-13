@@ -21,3 +21,12 @@
     font-weight: 600;
     font-size: 16px;
 }
+
+.detailTechnologyContainerCV{
+    display: flex;
+    justify-content: center;
+}
+
+.technologyTitle {
+    text-align: center;
+}
