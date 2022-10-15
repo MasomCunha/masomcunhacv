@@ -1,7 +1,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center">README-Challenge</h3>
+  <h3 align="center">Curriculum vitae</h3>
 
 </div>
 
@@ -33,6 +33,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+This project represents my curriculum vitae. It is composed by two routes, where the first represents "Login" (public route) and the second represents my details (private route). Both avatar image and repository list in details page are filled using github api. Redux is used to store the information, and context is used to control darkmode. 
+The responsive of this project is in progress, as you can see in <a href="#roadmap">road map</a>.
 
 
 
@@ -90,7 +93,7 @@ Run application in Chrome
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-
+The application will open in "login" page. This page is wrapped by a header and footer components. In these both two components, a button is present to control dark mode. You can access details page by clicking in the github icon. In the detail page you can see the avatar image from github, and a list of links from my repositories. In projects list a timer is present that shows how long ago each project started. To finish, you can "logout" the application by clickimg in the logout button within the header.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
