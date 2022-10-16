@@ -1,1 +1,1 @@
-export const ICON_SIZE = "30px";
+export const ICON_SIZE = "2REM";

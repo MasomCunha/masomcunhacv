@@ -1,4 +1,16 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
 .pageContainer {
-    width: 100VW;
-    height: 86vh;
+  width: 100vw;
+  height: 86vh;
+}
+
+@media screen and (max-height: 820px) {
+  .pageContainer {
+    width: 100vw;
+    height: 685px;
+  }
 }
