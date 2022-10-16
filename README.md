@@ -35,7 +35,7 @@
 ## About The Project
 
 This project represents my curriculum vitae. It is composed by two routes, where the first represents "Login" (public route) and the second represents my details (private route). Both avatar image and repository list in details page are filled using github api. Redux is used to store the information, and context is used to control darkmode. 
-This project was deploy using github pages <a href="http://Masomcunha.github.io/masomcunhacv/">my cv</a>.
+This project was deploy using github pages (<a href="http://Masomcunha.github.io/masomcunhacv/">my cv</a>).
 
 
 
