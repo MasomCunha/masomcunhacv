@@ -1,5 +1,5 @@
 .detailCV {
-  height: 100%;
+  height: 86vh;
   display: flex;
   width: 100%;
   position: relative;
@@ -17,7 +17,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px 0px;
+  margin: 0px 10px;
 }
 
 .detailAvatarCV {
@@ -69,4 +70,37 @@
 
 .repositoryOption:hover{
   transform: scale(1.04);
+}
+
+@media screen and (max-height: 910px) {
+  .detailCV {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .detailCV {
+    width: 100vw;
+    height: auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .detailProjectsContainerCV {
+    display: block;
+  }
+
+  .projectDetailContainer {
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .repositoryDetailContainer {
+    width: 80%;
+    font-size: 16px;
+    margin: auto;
+}
 }
