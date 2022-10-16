@@ -115,7 +115,7 @@ The application will open in "login" page. This page is wrapped by a header and 
 - [X] Add other projects list 
 - [X] Add button to "logout"
 - [X] Add function to calculate end date in projects
-- [ ] Responsive
+- [X] Responsive
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

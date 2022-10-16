@@ -11,6 +11,8 @@ import Routes from "./routes";
 import { CVContext } from "./context/CVContext";
 //actions
 import { login } from "./redux/actions/authActions";
+//style
+import "./style/app.css";
 
 
 function App() {

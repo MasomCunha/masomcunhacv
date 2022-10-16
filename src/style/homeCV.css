@@ -55,9 +55,23 @@
 @media screen and (max-height: 850px) {
     .homeCV {
       width: 100vw;
-      height: 690px;
+      height: 724px;
     }
 
   }
   
+  @media screen and (max-width: 1250px) {
+  .homeCV{
+    font-size: 30px;
+    
+  }
+
+}
+
+  @media screen and (max-width: 500px) {
+    .homeCV{
+      font-size: 20px;
+    }
+}
+
   
